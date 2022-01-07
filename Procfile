@@ -1,0 +1,1 @@
+web: waitress-serve --port=$PORT Email_automation.wsgi:application
