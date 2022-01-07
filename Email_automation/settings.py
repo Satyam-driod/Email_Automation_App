@@ -139,6 +139,6 @@ EMAIL_HOST = 'smtp.gmail.com'
 # Port for sending e-mail.
 EMAIL_PORT = 587
 # Optional SMTP authentication information for EMAIL_HOST.
-EMAIL_HOST_USER = '25satyam25@gmail.com'
-EMAIL_HOST_PASSWORD = env("HOST_EMAIL_PASSWORD")
+EMAIL_HOST_USER = env("EMAIL_HOST_USER")
+EMAIL_HOST_PASSWORD = env("EMAIL_HOST_PASSWORD")
 EMAIL_USE_TLS = True
